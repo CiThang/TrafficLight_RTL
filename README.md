@@ -30,7 +30,7 @@ The system is composed of four main modules:
   - `green_light`
   - `timer_value` (passed to segment_display.v )
 - **Result**
-![image](https://github.com/user-attachments/assets/bcb517ee-683f-4660-96a1-426c0e1d0046)
+![image](https://github.com/user-attachments/assets/386cb594-b002-4e6e-8eea-cd9887deb43e)
 ### 3. `7-Segment Display Controller - segment_display.v`
 - **Function**: Converts `count_value` to a 2-digit 7-segment format for display.
 - **Input**: `timer_value`
