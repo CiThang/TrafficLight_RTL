@@ -35,6 +35,9 @@ The system is composed of four main modules:
 - **Function**: Converts `count_value` to a 2-digit 7-segment format for display.
 - **Input**: `timer_value`
 - **Output**: `display_led[15:0]` (for 2 digits × 7 segments + dot points)
+![image](https://github.com/user-attachments/assets/c3ffc364-2f44-4ea1-adcf-f335ad6032f4)
+
+![image](https://github.com/user-attachments/assets/57f3c3b2-8e76-4b2a-aa84-466d5e8a4a11)
 
 ---
 
