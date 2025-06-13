@@ -90,7 +90,9 @@ The system is composed of four main modules:
 ![image](https://github.com/user-attachments/assets/973ac5c3-eb01-422d-bff7-e7d481a996d0)
 
 ---
-
+## Result
+![image](https://github.com/user-attachments/assets/972bf280-07d9-4822-b910-156725dde564)
+---
 ## 🔁 Future Improvements
 - Add pedestrian crossing logic.
 - Support for night mode or flashing yellow.
