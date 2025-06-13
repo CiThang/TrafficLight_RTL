@@ -28,18 +28,16 @@ The system is composed of four main modules:
   - `red_light`
   - `yellow_light`
   - `green_light`
-  - `timer_value` (passed to counter)
+  - `timer_value` (passed to segment_display.v )
 - **Result**
-![image](https://github.com/user-attachments/assets/bcb517ee-683f-4660-96a1-426c0e1d0046)
-### 3. `Counter`
-- **Function**: Countdown timer from the `timer_value` received from the state machine.
-- **Input**: `clk_1Hz`, `timer_value`
-- **Output**: `count_value` (0–99)
-
-### 4. `7-Segment Display Controller`
+![image](https://github.com/user-attachments/assets/386cb594-b002-4e6e-8eea-cd9887deb43e)
+### 3. `7-Segment Display Controller - segment_display.v`
 - **Function**: Converts `count_value` to a 2-digit 7-segment format for display.
-- **Input**: `count_value`
+- **Input**: `timer_value`
 - **Output**: `display_led[15:0]` (for 2 digits × 7 segments + dot points)
+![image](https://github.com/user-attachments/assets/c3ffc364-2f44-4ea1-adcf-f335ad6032f4)
+
+![image](https://github.com/user-attachments/assets/57f3c3b2-8e76-4b2a-aa84-466d5e8a4a11)
 
 ---
 
@@ -87,13 +85,16 @@ The system is composed of four main modules:
 
 ## 📷 Block Diagram
 
-![image](https://github.com/user-attachments/assets/973ac5c3-eb01-422d-bff7-e7d481a996d0)
+![image](https://github.com/user-attachments/assets/5d2a7600-d466-4831-9e55-b38e0f139482)
+
 
 ---
+## Result
+![image](https://github.com/user-attachments/assets/d35c8919-9fb3-4439-a194-2de4f071d3be)
 
+---
 ## 🔁 Future Improvements
 - Add pedestrian crossing logic.
 - Support for night mode or flashing yellow.
 - Implement testbench and simulation scripts.
 
-# TrafficLight_RTL_v2
