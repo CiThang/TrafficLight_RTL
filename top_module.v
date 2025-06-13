@@ -28,16 +28,8 @@ module top_module (
         .timer_value(timer_value)
     );
 
-
-    counter cnt (
-        .clk(clk),
-        .rst_n(rst_n),
-        .timer_value(timer_value),
-        .counter_value(counter_value)
-    );
-
     segment_display seg_disp (
-        .count_value(counter_value),
+        .count_value(timer_value),
         .seg_a(seg_a),
         .seg_b(seg_b)
     );
